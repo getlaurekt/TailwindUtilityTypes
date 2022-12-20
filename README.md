@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
 <!-- [![Contributors][contributors-shield]][contributors-url] -->
 
 [![Forks][forks-shield]][forks-url]
@@ -10,6 +12,8 @@
 
 <!-- [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
