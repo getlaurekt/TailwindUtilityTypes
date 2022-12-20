@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type TextColors = ColorsVariants | StandardColors;
-
-type TextColor = `text-${TextColors}`;
+type TextColor = GenerateUtilColors<"text">;
 
 export default TextColor;

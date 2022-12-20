@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type BackgroundColors = ColorsVariants | StandardColors;
-
-type BackgroundColor = `bg-${BackgroundColors}`;
+type BackgroundColor = GenerateUtilColors<"bg">;
 
 export default BackgroundColor;

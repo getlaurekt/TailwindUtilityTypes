@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type BoxShadowColors = StandardColors | ColorsVariants;
-
-type BoxShadowColor = `shadow-${BoxShadowColors}`;
+type BoxShadowColor = GenerateUtilColors<"shadow">;
 
 export default BoxShadowColor;

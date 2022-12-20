@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type AccentColors = ColorsVariants | StandardColors;
-
-type AccentColor = `accent-${AccentColors}`;
+type AccentColor = GenerateUtilColors<"accent">;
 
 export default AccentColor;

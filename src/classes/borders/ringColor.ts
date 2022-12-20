@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type RingColors = StandardColors | ColorsVariants;
-
-type RingColor = `ring-${RingColors}`;
+type RingColor = GenerateUtilColors<"ring">;
 
 export default RingColor;

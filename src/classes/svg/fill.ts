@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type Fills = StandardColors | ColorsVariants;
-
-type Fill = `fill-${Fills}`;
+type Fill = GenerateUtilColors<"fill">;
 
 export default Fill;

@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type CaretColors = ColorsVariants | StandardColors;
-
-type CaretColor = `caret-${CaretColors}`;
+type CaretColor = GenerateUtilColors<"caret">;
 
 export default CaretColor;

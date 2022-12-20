@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type Strokes = StandardColors | ColorsVariants;
-
-type Stroke = `stroke-${Strokes}`;
+type Stroke = GenerateUtilColors<"stroke">;
 
 export default Stroke;

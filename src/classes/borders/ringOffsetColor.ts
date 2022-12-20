@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type RingOffsetColors = StandardColors | ColorsVariants;
-
-type RingOffsetColor = `ring-offset-${RingOffsetColors}`;
+type RingOffsetColor = GenerateUtilColors<"ring-offset">;
 
 export default RingOffsetColor;

@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type OutlineColors = StandardColors | ColorsVariants;
-
-type OutlineColor = `outline-${OutlineColors}`;
+type OutlineColor = GenerateUtilColors<"outline">;
 
 export default OutlineColor;

@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type TextDecorationColors = ColorsVariants | StandardColors;
-
-type TextDecorationColor = `decoration-${TextDecorationColors}`;
+type TextDecorationColor = GenerateUtilColors<"decoration">;
 
 export default TextDecorationColor;

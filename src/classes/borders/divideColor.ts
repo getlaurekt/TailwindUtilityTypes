@@ -1,7 +1,5 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type DivideColors = StandardColors | ColorsVariants;
-
-type DivideColor = `divide-${DivideColors}`;
+type DivideColor = GenerateUtilColors<"divide">;
 
 export default DivideColor;

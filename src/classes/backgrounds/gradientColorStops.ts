@@ -1,14 +1,11 @@
-import { StandardColors, ColorsVariants } from "../../utils/colors";
+import { GenerateUtilColors } from "../../helpers/helpers";
 
-type GradientColorStopsess = ColorsVariants | StandardColors;
+type GradientFrom = "from";
+type GradientVia = "via";
+type GradientTo = "to";
 
-type GradientFrom = "from-";
-type GradientVia = "via-";
-type GradientTo = "to-";
-
-type GradientColorStops = `${
-  | GradientFrom
-  | GradientVia
-  | GradientTo}${GradientColorStopsess}`;
+type GradientColorStops = GenerateUtilColors<
+  GradientFrom | GradientVia | GradientTo
+>;
 
 export default GradientColorStops;
