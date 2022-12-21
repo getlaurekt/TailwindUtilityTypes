@@ -2,8 +2,8 @@ import { ShortenSides } from "../../utils/sides";
 import Directions from "../../utils/directions";
 import Spaces from "../../utils/spacing";
 
-type PaddingMargins = `p-${Spaces}` | `p${Directions | ShortenSides}-${Spaces}`;
+type ScrollPaddings = `p-${Spaces}` | `p${Directions | ShortenSides}-${Spaces}`;
 
-type PaddingMargin = `scroll-${PaddingMargins}`;
+type ScrollPadding = `scroll-${ScrollPaddings}`;
 
-export default PaddingMargin;
+export default ScrollPadding;
