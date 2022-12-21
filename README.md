@@ -145,6 +145,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Add Utility Classes
   - [ ] Modifiers
+- [x] Add Collection Classes
+  - [x] Single Class
+  - [ ] Multi Class
 
 See the [open issues](https://github.com/getlaurekt/TailwindUtilityTypes/issues) for a full list of proposed features (and known issues).
 
