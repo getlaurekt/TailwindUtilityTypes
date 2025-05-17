@@ -1,3 +1,6 @@
+/**
+ * Standard spacing values in Tailwind CSS
+ */
 type Spaces =
   | "0"
   | "px"
@@ -33,5 +36,16 @@ type Spaces =
   | "72"
   | "80"
   | "96";
+
+/**
+ * Arbitrary spacing value in square brackets
+ * @example "[10px]", "[2rem]", "[calc(100%-1rem)]"
+ */
+export type ArbitrarySpacing = `[${string}]`;
+
+/**
+ * Spacing value (either standard or arbitrary)
+ */
+export type Spacing = Spaces | ArbitrarySpacing;
 
 export default Spaces;

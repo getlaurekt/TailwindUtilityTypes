@@ -1,0 +1,43 @@
+# This project is focused on generating TypeScript types for Tailwind CSS utility classes.
+
+# The goal is to provide a simple and developer-friendly API for using a curated subset of these classes within frontend design systems.
+
+# Principles for code and type generation:
+
+# - Prioritize scalability and maintainability in the codebase and generated types.
+
+# - Strive for senior-level code quality, including clear structure, documentation, and best practices.
+
+# - Utilize best TypeScript practices for performance and type-safety.
+
+# - Design a flexible API for consuming types, including features like generics.
+
+# - Avoid using barrel imports.
+
+# - Do not use the 'Class' type in TypeScript.
+
+# - Document the generated types thoroughly for developers, including explanations and usage examples.
+
+# - Always update README.md to reflect codebase/features changes, including detailed examples of type usage in various contexts (e.g., frontend component props).
+
+# - Use conventional commits (e.g., feat:, fix:, refactor:).
+
+# Guidelines for type coverage:
+
+# - The generated TypeScript types should cover all standard Tailwind modifiers (e.g., hover, focus, responsive prefixes).
+
+# - Include types for arbitrary values (e.g., `top-[117px]`), arbitrary properties (`[mask-type:luminance]`), and arbitrary variants (`[&>:nth-child(odd)]:`).
+
+# - Ensure the types accommodate the possibilities described in the Tailwind v3.4.17 documentation, including functional utilities and their value resolution methods.
+
+# When assisting with this project, prioritize tasks related to:
+
+# 2. Generating accurate and well-structured TypeScript type definitions for these classes.
+
+# 3. Designing and refining the API for consuming these types in frontend code.
+
+# 4. Ensuring the generated types facilitate restricting the use of Tailwind classes in a design system context.
+
+# Avoid generating actual CSS, components, or unrelated code.
+
+# Focus strictly on the type generation and the API for type consumption.
